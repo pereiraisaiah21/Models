@@ -113,7 +113,6 @@ ul, li {list-style-type: none;}
     color: #665a5a;
     cursor: pointer;
 }
-
 .main-back {
     background: url("./back.png") no-repeat;
     background-size: contain;
