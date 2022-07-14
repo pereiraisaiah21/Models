@@ -1,0 +1,34 @@
+
+
+.cards {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: stretch;
+}
+.cards__item {
+    width: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #bfbedd;
+    border-radius: 20px;
+    margin: 10px;
+}
+.cards__item__id {
+    display: inline-block;
+    background: #ffffff;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+.cards__item__title {
+    font-size: .8rem;
+    margin: 10px 0 0;
+}
+
+@media (max-width: 424px) {
+    .cards__item {
+        width: 100%;
+    }
+}

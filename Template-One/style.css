@@ -98,11 +98,6 @@ ul, li {list-style-type: none;}
     background-color: #f5f4ee;
     font-size: .9rem;
 }
-.form-input:focus, {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-}
 .form-send {
     margin: 10px 0 0;
     padding: 5px 20px;
